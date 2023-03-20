@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "poppins",sans-serif;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+/* Navbar */
+#navbar{
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 10;
+}
+.bold{
+font-size: 25px;
+}
+
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+
+}
+
+
+/* Home */
+span{
+    color:blue;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+/* About */
+#about img{
+    width:25rem;
+    height: 20rem;
+    border-radius: 20px;
+}
+
+
+/* services */
+.card img{
+    height:200px;
+}
+
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+
+/* contact */
+form{
+    padding: 40px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.1),
+                -1px -1px 5px rgba(0,0,0,.1);
+    border-radius:30px;
+    /* background-image:linear-gradient(to right, rgb(243, 118, 118),rgb(167, 100, 122)) */
+    background-image:linear-gradient(rgb(107, 121, 241),rgb(146, 153, 248))
+} 
+
+form:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.btn{
+    
+    background-color: transparent;
+    border:1px solid white !important;
+}
